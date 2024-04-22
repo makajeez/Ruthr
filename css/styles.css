@@ -1,0 +1,80 @@
+.sedan-regular {
+  font-family: "Sedan", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.sedan-regular-italic {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  font-family: "Sedan", serif;
+  overflow-y: scroll;
+}
+
+h1 {
+  color: #000 !important;
+}
+.intro {
+  background: url('../images/seated.jpg');
+}
+.intro, .intro.career-path {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.intro .overlay {
+  height: 100vh;
+  /* background-attachment: scroll; */
+}
+
+.intro h1 {
+  color: #fff !important;
+  /* font-size: 5rem !important; */
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+
+.intro-content {
+  position: relative;
+  padding: 20% 0 5% 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.career-path {
+  background: url('../images/collage.png');
+}
+.career-path h1 {
+  color: #fff;
+  font-size: 400%;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.custom-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.insta {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9ce34),to(#ee2a7b), to(#6228d7));
+  background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

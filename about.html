@@ -1,148 +1,91 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ABOUT - Mary Blalock - Career Coaching</title>
-    <link rel="stylesheet" href="/styles/about.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/b4091a65fc.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body id="body">
-    <header id="header">
-      <button onclick="openNav()" class="menubtn" id="menu">
-        <div class="container" onclick="myFunction2(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruth Kalu - About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-uppercase" href="#">Ruth Kalu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="coaching.html">I:I CARRER COACHING</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                <a class="btn btn-outline-warning btn-md" href="login.html" role="button">LOG IN</a>
+                </li>
+            </ul>
+            </div>
         </div>
-      </button>
-      <a
-        href="javascript:void(0)"
-        class="closebtn"
-        id="closeMenu"
-        onclick="closeNav()"
-        ><i class="fa-solid fa-xmark"></i
-      ></a>
-      <div id="mySidenav" class="sidenav">
-        <a href="#" class="home">HOME</a>
-        <a href="#" class="career-coaching">1:1 CAREER COACHING</a>
-        <a href="#" class="quiz">CAREER QUIZ</a>
-        <a href="#" class="about">ABOUT <span>»</span></a>
-        <a href="#" class="contact">CONTACT</a>
-        <a href="#" class="login">LOG IN</a>
-      </div>
+    </nav>
 
-      <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-          document.getElementById("menu").style.display = "none";
-          document.getElementById("closeMenu").style.display = "block";
-          document.getElementById("body").style.background = "#f2f2f2";
-          document.getElementById("header").style.background = "#f2f2f2";
-        }
+    <section id="about-me">
+        <div class="container" style="margin-top: 56px;">
+            <hr class="">
+            <h1 class="text-center display-4">ABOUT ME</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="./images/smilling.jpg" alt="About Me" class="img-fluid">
+                </div>
+                <div class="col-md-5 h3">
+                    <p>I am a professional career coach with over 10 years of experience in the field. I have a passion for helping people achieve their career goals and I am committed to providing personalized and effective guidance to my clients.</p> 
+    
+                    <p>I am a firm believer in the power of motivation and I have a strong track record of helping clients achieve their goals through effective strategies and personalized attention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-          document.getElementById("mySidenav").style.transition = "0.3s";
-          document.getElementById("menu").style.display = "block";
-          document.getElementById("closeMenu").style.display = "none";
-          document.getElementById("body").style.background = "#fff";
-          document.getElementById("header").style.background = "#fff";
-        }
-      </script>
+    <section id="bottom-nav">
+        <div class="container py-5">
+          <hr class="">
+          <p class="h3 text-center text-uppercase text-warning mt-5">RUTH KALU - CAREER COACH</p>
+          <nav class="mt-3">
+            <ul class="nav justify-content-center gap-3">
+              <li class="nav-item">
+                <a class="text-dark text-uppercase fw-bold link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-dark text-uppercase fw-bold link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="coaching.html">I:I Career Coaching</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-dark text-uppercase fw-bold link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="courses.html">Online Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-dark text-uppercase fw-bold link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="about.html">About</a>
+              </li> 
+  
+              <li class="nav-item">
+                <a class="text-dark text-uppercase fw-bold link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    
 
-      <!--navbar at large screens-->
-
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">1:1 CAREER COACHING</a></li>
-        <li><a href="#">CAREER QUIZ</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
-
-      <button class="loginBtn">LOG IN</button>
-    </header>
-    <br />
-    <div class="underline"></div>
-    <div class="section1">
-      <img src="images/ellipses.png" class="pic1" /><br />
-      <h2>ABOUT ME</h2>
-      <br />
-      <img src="images/ellipses.png" class="pic2" />
-    </div>
-    <div class="underline"></div>
-
-    <div class="section2">
-      <h4>
-        "My job as a Career Coach is to help you find a career path that fits
-        your personality and helps you feel more fulfilled."
-      </h4>
-      <div class="image">
-        <img src="images/Mary+Model.png" />
-        <p class="paragraph-1">
-          Working as a recruiter, coach, and on crisis hotline volunteer has
-          given me a unique perspective into how to help people navigate life's
-          challenges - both large and small. I believe that it is possible to
-          have what you truly want in life - and believe that it is possible to
-          transform negative situations into positive outcomes.
-        </p>
-      </div>
-      <div class="paragraph-2">
-        <h4>
-          My name is Mary Blalock and I'm a Career Coach who has helped people
-          get jobs at companies like Amazon, Microsoft, adidas and Nike.
-        </h4>
-        <p>
-          I recieved my coaching certification from Vera University where I
-          studied evidence-based theories on how to help people create lasting
-          behaviour change in their lives. I discovered that some of my coaching
-          clients were asking for career advice because they were struggling
-          with difficult and stressful work situations and sacrificing their
-          health for thier jobs. I decided to combine my recruiting skills and
-          coaching experience to focus on helping people find work that brings
-          them joy and meaning in their life.
-        </p>
-        <h4>
-          My own career has had ups, downs, and "aha!" moments to find a job
-          that I love.
-        </h4>
-        <p>
-          I get excited to help people overcoe the real obstacles - both
-          internally and externally - that keep up from living a life of
-          contentment in our work.
-        </p>
-      </div>
-    </div>
-    <div class="underline"></div>
-
-    <footer>
-      <div class="title">
-        <h3>MARY BLALOCK - CAREER COACH</h3>
-      </div>
-      <div class="links">
-        <ul>
-          <li><a href="#"></a>HOME</li>
-          <li><a href="#"></a>1:1 CAREER COACHING</li>
-          <li><a href="#"></a>ABOUT</li>
-          <li><a href="#"></a>CONTACT</li>
-        </ul>
-      </div>
-    </footer>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
