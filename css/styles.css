@@ -15,6 +15,15 @@ body {
   overflow-y: scroll;
 }
 
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+input[type="password"]
+input[type="radio"]:checked {
+  outline-color: #ffc107 !important;
+  outline: #ffc107 solid 1px;
+}
+
 h1 {
   color: #000 !important;
 }
